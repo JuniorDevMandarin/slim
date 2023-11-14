@@ -76,7 +76,6 @@ a{
     display: grid;
     grid-template-columns: auto auto;
 
-    padding: 10px;
     margin-left: -494px;
   }
   .grid-item {

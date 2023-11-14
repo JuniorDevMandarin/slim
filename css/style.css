@@ -77,10 +77,11 @@ a{
     grid-template-columns: auto auto;
 
     padding: 10px;
+    margin-left: -494px;
   }
   .grid-item {
-    margin-right: 444px;
-    padding: 20px;
+    margin-right: 240px;
+    /* padding: 20px; */
     font-size: 30px;
     text-align: center;
   }

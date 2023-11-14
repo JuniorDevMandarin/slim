@@ -816,7 +816,6 @@ footer{
     display: flex;
     width: 375px;
     height: 59px;
-    padding: 10px 20px;
     justify-content: space-between;
     align-items: center;
     flex-shrink: 0;
@@ -831,11 +830,11 @@ footer{
     height: 36px;
   }
   .btnheader{
-    margin-left: -200px;
+    margin-left: -169px;
     margin-top: -18px;
     display: flex;
-    width: 120px;
-    height: 18px;
+    width: 92px;
+    height: 2px;
     justify-content: center;
     align-items: center;
     flex-shrink: 0;

@@ -807,3 +807,88 @@ footer{
   margin-right: 23px;
   margin-top: 20px;
 }
+
+
+
+@media only screen and (max-width: 767px) {
+  /* Ваш код стилей для мобильных устройств здесь */
+  .header{
+    display: flex;
+    width: 375px;
+    height: 59px;
+    padding: 10px 20px;
+    justify-content: space-between;
+    align-items: center;
+    flex-shrink: 0;
+    background: #FFF;
+    box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.05);
+  }
+  .navlist{
+    display: none;
+  }
+  .logo>img{
+    width: 114px;
+    height: 36px;
+  }
+  .btnheader{
+    margin-left: -200px;
+    margin-top: -18px;
+    display: flex;
+    width: 120px;
+    height: 18px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: 56px;
+    background: linear-gradient(78deg, #5CC340 0%, #9EDA3B 100%);
+    box-shadow: 0px 4px 20.1px 0px rgba(122, 195, 76, 0.54);
+  }
+  .maincontent{
+    width: 375px;
+    height: 716px;
+  }
+  .grid-item:nth-child(2){
+    display: none;
+  }
+  .grid-container{
+    margin-right: 47px;
+    display: contents;
+  }
+  .grid-item{
+    margin-right: 0px;
+  }
+  .mtext{
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px; /* 125% */
+    align-self: stretch;
+    width: 335px;
+    margin-top: 39px;
+    margin-left: 28px;
+  }
+  .contentitem {
+    display: flex;
+    list-style-type: none;
+    text-align: left;
+    margin-left: -287px;
+    margin-top: 18px;
+  }
+  .contentimg{
+    width: 32px;
+    height: 32px;
+    margin-left: -32px;
+  }
+  .contenttext{
+    color: rgba(255, 255, 255, 0.82);
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 34.997px; /* 218.729% */
+    text-transform: uppercase;
+    margin-top: -5px;
+  }
+}

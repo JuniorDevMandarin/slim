@@ -718,6 +718,9 @@ input[type=number] {
   margin-left: 18px;
   margin-top: 29px;
 }
+.fruit{
+  display: none;
+}
 
 footer{
   display: flex;
@@ -856,15 +859,20 @@ footer{
     background: linear-gradient(78deg, #5CC340 0%, #9EDA3B 100%);
 
   }
-  .grid-item:nth-child(2){
+  /* .grid-item:nth-child(2){
     display: none;
-  }
+  } */
   .grid-container{
     margin-right: 47px;
     display: contents;
   }
   .grid-item{
     margin-right: 0px;
+  }
+  .tabl{
+    margin-top: 406px;
+    margin-left: -368px;
+    position: absolute;
   }
   .mtext{
     color: #FFF;
@@ -913,8 +921,8 @@ footer{
   .contbtn {
     display: inline-flex;
     padding: 25px 72px;
-    margin-top: 373px;
-    margin-left: 18px;
+    margin-top: 686px;
+    margin-left: -371px;
     justify-content: center;
     align-items: center;
     gap: 10px;
@@ -924,14 +932,65 @@ footer{
     z-index: 1;
     width: 223px;
   }
-  .doktor>img{
+  .deskimg{
     display: none;
   }
   .doktor{
-    background-image: url(../images/Frame81.png);
-    background-repeat: no-repeat;
-    background-size: contain;
+    background: linear-gradient(75deg, #5CC340 3.76%, #9EDA3B 100%);
   }
+  .respdoktor{
+    position: absolute;
+    width: 329.563px;
+    height: 361.146px;
+  }
+  .fruit{
+    display: block;
+    width: 414px;
+    height: 441px;
+
+    margin-top: 264px;
+  }
+  .basb{
+    display: none;
+  }
+  .dotkreck{
+    display: flex;
+    width: 347px;
+    padding: 24px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 22px;
+    background: #FFF;
+    height: 293px;
+    margin-top: 309px;
+    margin-left: 0px;
+    position: absolute;
+  }
+  .mname{
+    color: #042606;
+    font-family: Poppins;
+    font-size: 26.875px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 43px; /* 160% */
+  }
+  .doctext {
+    margin-top: 26px;
+    color: rgba(0, 0, 0, 0.55);
+    font-family: Poppins;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+.doctasste{
+  width: 35px;
+  height: 22px;
+  position: absolute;
+  right: 51px;
+  top: 35px;
+}
   .why{
     color: #042606;
     font-family: Poppins;

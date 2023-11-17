@@ -130,8 +130,8 @@ a{
   .contbtn{
     display: inline-flex;
     padding: 25px 72px;
-    margin-top: 61px;
-    margin-left: 86px;
+    margin-top: -79px;
+    margin-left: 335px;
     justify-content: center;
     align-items: center;
     gap: 10px;border-radius: 49px;
@@ -816,6 +816,9 @@ footer{
 .respimg{
   display: none;
 }
+.respdoktor, .dotkreck, .tabl{
+  display: none;
+}
 
 
 @media only screen and (max-width: 767px) {
@@ -937,15 +940,17 @@ footer{
   }
   .doktor{
     background: linear-gradient(75deg, #5CC340 3.76%, #9EDA3B 100%);
+  
   }
   .respdoktor{
+    display: block;
     position: absolute;
     width: 329.563px;
     height: 361.146px;
   }
   .fruit{
     display: block;
-    width: 414px;
+    width: 100%;
     height: 441px;
 
     margin-top: 264px;
@@ -954,8 +959,9 @@ footer{
     display: none;
   }
   .dotkreck{
+    
     display: flex;
-    width: 347px;
+    width: 329px;
     padding: 24px;
     flex-direction: column;
     align-items: flex-start;
@@ -1022,6 +1028,7 @@ footer{
         'item6 ';
 }
 .grid-container2 > div {
+  margin-left: 58px;
   background-color: rgba(255, 255, 255, 0.8);
   text-align: center;
   padding: 20px 0;
@@ -1032,6 +1039,18 @@ footer{
   font-weight: 600;
   line-height: 24px;
   margin-top: 24px;
+}
+.grid-container2 > .item1 {
+  margin-left: 22px;
+
+}
+.grid-container2 > .item2 {
+  margin-left: 22px;
+
+}
+.fatimg1, .fatimg2, .fatimg3, .fatimg4 {
+  margin-top: 20px;
+  margin-left: -2px;
 }
   .item1{
     margin-top: -250px;

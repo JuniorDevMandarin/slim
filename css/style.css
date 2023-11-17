@@ -873,6 +873,7 @@ footer{
     margin-right: 0px;
   }
   .tabl{
+    display: block;
     margin-top: 406px;
     margin-left: -368px;
     position: absolute;

@@ -938,7 +938,7 @@ footer{
     background-repeat: no-repeat;
     background-size: contain;
     height: 427px;
-    background-position: 27px -3px;
+    background-position: center;
 }
   .contbtn {
     display: inline-flex;
